@@ -11,6 +11,7 @@ public class TestParcial {
 	@Test
 	public void queSePuedaCrearUnNadador() {
 		Nadador nuevo = new Nadador(1, "Camila", "Espalda");
+		Nadador nuevo1 = new Nadador(1, "Camila", "Espalda");
 		
 		assertEquals("Espalda", nuevo.getEstiloPreferido());
 		assertEquals((Integer)1, nuevo.getNumeroDeSocio());
